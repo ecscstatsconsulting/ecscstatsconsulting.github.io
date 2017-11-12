@@ -1,0 +1,109 @@
+ul {
+    list-style: none;
+    margin-left: 25px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header {
+    background: black;
+    color: white;
+    transition: opacity 1s ease;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    transition: all 0.5s ease;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+.fade {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+    .fade {
+        opacity: 1;
+    }
+}
+
+.scrolled {
+    height: 50px;
+    line-height: 50px;
+}
+
+section {
+    max-width: 600px;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+h1,
+li a,
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 45px;
+    height: 100px;
+}
+
+.progress-bar {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-top {
+    font-size: 25px;
+    height: 40px;
+    width: 60px;
+    line-height: 60px;
+    position: fixed;
+    right: 27px;
+    bottom: 28px;
+    color: rgba(77, 91, 109, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
+
+.is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
