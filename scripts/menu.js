@@ -41,10 +41,9 @@ $(document).ready(function () {
     
             // Get the window position and set it to a variale
             var s = $(window).scrollTop(),
-                d = $(document).height(),
-                c = $(window).height();
-            scrollPercent = (s / (d - c)) * 100;
-    
+                d = $(document).height();
+            scrollPercent = (s / d) * 100;
+            
             // Bind the window position to the progress dial
             $('.dial').val(scrollPercent).change();
     
