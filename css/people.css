@@ -21,6 +21,9 @@
     cursor: pointer;
     transition: all 0.2s ease;
   }
+  section#tiles .thumbnail.big {
+    width: 300px;
+  }
   section#tiles .thumbnail:hover, section#tiles .thumbnail:focus {
     background: #ededed;
     border-color: #f39c12;
