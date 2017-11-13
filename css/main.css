@@ -48,7 +48,7 @@ header:hover {
 }
 
 section {
-    max-width: 600px;
+    /*max-width: 600px;*/
     padding: 0 25px;
     margin: 0 auto;
     margin-top: 150px;

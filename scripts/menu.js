@@ -6,8 +6,9 @@ $(document).ready(function () {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
+                    var spot = (target.attr("id") === "home") ? 0 : target.offset().top - 80;
                     $('html,body').animate({
-                        scrollTop: target.offset().top - 80
+                        scrollTop: spot
                     }, 500);
                     return false;
                 }
