@@ -20,10 +20,9 @@
     border: 2px solid #ddd;
     cursor: pointer;
     transition: all 0.2s ease;
+    vertical-align: top;
   }
-  section#tiles .thumbnail.big {
-    width: 300px;
-  }
+
   section#tiles .thumbnail:hover, section#tiles .thumbnail:focus {
     background: #ededed;
     border-color: #f39c12;
@@ -95,6 +94,16 @@
       width: 100%;
     }
   }
+  .ppl-text {
+    font-size: 8pt;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+    height: 160px;
+    text-align: left;
+  }
+  
   @media (max-width: 599px) {
     section .thumbnail {
       width: 200px;

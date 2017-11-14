@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     $test = setInterval(function () { drawECSC(30, 2); }, 50);
     $x = 1;
     $rgb = 0;

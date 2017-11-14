@@ -1,26 +1,20 @@
 $(document).ready(function() {
-       //$('#tiles .thumbnail').click(function(){
-       //  $(".thumbnail .details").addClass("hidden");  
-       //  $(this).find('.details').toggleClass('hidden');
-       //});
+       var sh = function(evt) {
+            var $this = $(this);
+            if (!$this.attr("oWidth")) $this.attr("oWidth", $this.width());
+            if (!$this.attr("oHeight")) $this.attr("oHeight", $this.height());
+            $this.toggleClass("selected");
 
-      //var $container = $("#tiles");
-
-      //$container.isotope({
-      //  itemSelector: '.thumbnail',
-      //  masonry: {
-      //    columnWidth: 175,
-      //    isFitWidth: true
-      //  }
-      //});
-
-      //$("#tiles .thumbnail").click(function () {
-      //  var $this = $(this),
-      //    tileStyle = $this.hasClass('big') ? {width: 175} : { width: 300};
-      //    $this.toggleClass("big");
-      //    $this.stop().animate(tileStyle);
-
-      //    $container.isotope("reLayout");
-      //});
+            if ($this.hasClass("selected")) {
+                 $this.stop().animate({width: 400, height: 400}, function() {
+                  $this.find(".ppl-text").fadeIn(1000);
+                 });
+            } else {
+                 $this.find(".ppl-text").fadeOut(1000, function() {
+                  $this.stop().animate({width: parseInt($this.attr("oWidth")) + 24, height: parseInt($this.attr("oHeight")) + 24})
+                 }); 
+            }
+       };
+       $('#tiles .thumbnail').click(sh).blur(sh);
 
 });
