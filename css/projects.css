@@ -1,0 +1,16 @@
+.project-logo {
+    width: 120px;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+.project-text {
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+.project-spacer {
+    height: 20px;
+    clear: left;
+}
