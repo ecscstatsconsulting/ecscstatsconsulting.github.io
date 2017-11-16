@@ -9,6 +9,7 @@
     overflow: auto;
     text-align: center;
     margin-top: 0px;
+    height: auto;
   }
   section#tiles .thumbnail {
     width: 160px;
@@ -23,10 +24,16 @@
     vertical-align: top;
   }
 
-  section#tiles .thumbnail:hover, section#tiles .thumbnail:focus {
+  /*section#tiles .thumbnail:hover, section#tiles .thumbnail:focus {
     background: #ededed;
     border-color: #f39c12;
+  }*/
+
+  section#tiles .thumbnail.selected {
+    background: #ededed;
+    border: 4px solid #f39c12;    
   }
+
   section#tiles .thumbnail .pic {
     border-radius: 50%;
     overflow: hidden;

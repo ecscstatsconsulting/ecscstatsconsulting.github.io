@@ -1,5 +1,5 @@
 $(document).ready(function() {
-       var sh = function(evt) {
+     /*var sh = function(evt) {
             var $this = $(this);
             if (!$this.attr("oWidth")) $this.attr("oWidth", $this.width());
             if (!$this.attr("oHeight")) $this.attr("oHeight", $this.height());
@@ -16,5 +16,15 @@ $(document).ready(function() {
             }
        };
        $('#tiles .thumbnail').click(sh).blur(sh);
+       */
+      $detail_section = $("#about-details");
+      $tiles = $(".thumbnail");
+      $tiles.click(function (evt) {
+           var $this = $(this);
+          $tiles.removeClass("selected");
+          $this.addClass("selected");
+          $detail_section.find(".ppl-name").html($this.find(".name").html());
+          $detail_section.find(".ppl-content").html($this.find(".ppl-text").html());
+      });
 
 });
