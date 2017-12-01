@@ -4,14 +4,14 @@
 
   .hidden {display: none;}
   
-  section#tiles {
+  section#people {
     padding: 20px;
     overflow: auto;
     text-align: center;
     margin-top: 0px;
     height: auto;
   }
-  section#tiles .thumbnail {
+  section#people .thumbnail {
     width: 160px;
     padding: 10px;
     background: #ddd;
@@ -29,27 +29,27 @@
     border-color: #f39c12;
   }*/
 
-  section#tiles .thumbnail.selected {
+  section#people .thumbnail.selected {
     background: #ededed;
     border: 4px solid #f39c12;    
   }
 
-  section#tiles .thumbnail .pic {
+  section#people .thumbnail .pic {
     border-radius: 50%;
     overflow: hidden;
     width: 100%;
     height: 140px;
     margin: 10px auto 25px;
   }
-  section#tiles .thumbnail .pic img {
+  section#people .thumbnail .pic img {
     width: 140px;
   }
-  section#tiles .thumbnail span {
+  section#people .thumbnail span {
     font-size: 14px;
     line-height: 1.5em;
   }
 
-  section#tiles .thumbnail .details {
+  section#people .thumbnail .details {
     font-size: 14px;
     line-height: 1.5em;
   }
