@@ -44,7 +44,7 @@ $(document).ready(function () {
             $detail_section.find(".ppl-content").html($this.find(".ppl-text").html());
         });
     };
-    alert("here");
+
     $.ajax({
         dataType: "json",
         url: "data/people.json",
@@ -53,7 +53,9 @@ $(document).ready(function () {
             var peopleContainer = $("#people");
             var html = "";
 
-            if ((d) && (d.people) & (d.people.length)) html = createPeopleSectionHTML(d.people);
+            if ((d) && (d.people) & (d.people.length)) {
+                html = createPeopleSectionHTML(d.people);
+            }
             
             peopleContainer.html(html);
             postLoad();
