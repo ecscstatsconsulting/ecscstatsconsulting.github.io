@@ -53,10 +53,10 @@ $(document).ready(function () {
             var peopleContainer = $("#people");
             var html = "";
 
-            if ((d) && (d.people) & (d.people.length)) {
+            if ((d) && (d.people) && (d.people.length)) {
                 html = createPeopleSectionHTML(d.people);
             }
-            
+
             peopleContainer.html(html);
             postLoad();
         }
