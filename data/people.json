@@ -1,0 +1,31 @@
+{
+    "name": "ECSC, ltd. People",
+    "people": [
+        {
+            "id": 1,
+            "first_name": "Enkeleda",
+            "last_name": "&Ccedil;uko",
+            "image": "tn_leda.png",
+            "title": "CEO",
+            "about": "",
+            "resume": "leda-resume.html"
+        },
+        {
+            "id": 2,
+            "first_name": "Paul",
+            "last_name": "Warren",
+            "image": "tn_paul.png",
+            "title": "Vice President",
+            "about": "",
+            "resume": "paul-resume.html"
+        },
+        {
+            "id": 3,
+            "first_name": "Arber",
+            "last_name": "&Ccedil;uko",
+            "image": "tn_arber.png",
+            "title": "Business Analyst",
+            "about": ""
+        }
+    ]
+}
