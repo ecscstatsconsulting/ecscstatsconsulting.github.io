@@ -4,14 +4,14 @@
 
   .hidden {display: none;}
   
-  section#people {
+  section#people_section {
     padding: 20px;
     overflow: auto;
     text-align: center;
     margin-top: 0px;
     height: auto;
   }
-  section#people .thumbnail {
+  section#people_section .thumbnail {
     width: 160px;
     padding: 10px;
     background: #ddd;
@@ -29,27 +29,27 @@
     border-color: #f39c12;
   }*/
 
-  section#people .thumbnail.selected {
+  section#people_section .thumbnail.selected {
     background: #ededed;
     border: 4px solid #f39c12;    
   }
 
-  section#people .thumbnail .pic {
+  section#people_section .thumbnail .pic {
     border-radius: 50%;
     overflow: hidden;
     width: 100%;
     height: 140px;
     margin: 10px auto 25px;
   }
-  section#people .thumbnail .pic img {
+  section#people_section .thumbnail .pic img {
     width: 140px;
   }
-  section#people .thumbnail span {
+  section#people_section .thumbnail span {
     font-size: 14px;
     line-height: 1.5em;
   }
 
-  section#people .thumbnail .details {
+  section#people_section .thumbnail .details {
     font-size: 14px;
     line-height: 1.5em;
   }

@@ -50,7 +50,7 @@ $(document).ready(function () {
         url: "data/people.json",
         crossDomain: true,
         success: function (d) {
-            var peopleContainer = $("#people");
+            var peopleContainer = $("#people_section");
             var html = "";
 
             if ((d) && (d.people) && (d.people.length)) {
