@@ -44,7 +44,7 @@ $(document).ready(function () {
             $detail_section.find(".ppl-content").html($this.find(".ppl-text").html());
         });
     };
-
+    alert("here");
     $.ajax({
         dataType: "json",
         url: "data/people.json",
