@@ -12,7 +12,7 @@ $(document).ready(function () {
         arr.push("<span class=\"name\">" + name + "</span>");
         arr.push("<div class=\"details\"><b>" + p.title + "</b></div>");
         arr.push("<div class=\"ppl-text hidden\">");
-        arr.push("about");
+        arr.push(p.about);
         if (p.resume) {
             arr.push("<div class=\"resume\"><a href=\"resumes/ " + p.resume + "\">Resume</a></div>");
         }

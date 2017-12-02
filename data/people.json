@@ -7,7 +7,7 @@
             "last_name": "&Ccedil;uko",
             "image": "tn_leda.png",
             "title": "CEO",
-            "about": "",
+            "about": "Founder and CEO of ECSC, ltd. Enkeleda uses her years of experience in Statistical Analysis to bring out the truth in big data.  With deep roots in Bayesian Statistics her work fuels the decision making process for organizations large and small.",
             "resume": "leda-resume.html"
         },
         {
@@ -16,7 +16,7 @@
             "last_name": "Warren",
             "image": "tn_paul.png",
             "title": "Vice President",
-            "about": "",
+            "about": "Master Engineer and Architect of technical solutions for projects of all shapes and sizes.  If you can think of it Paul can bring your ideas in to reality.",
             "resume": "paul-resume.html"
         },
         {
@@ -25,7 +25,7 @@
             "last_name": "&Ccedil;uko",
             "image": "tn_arber.png",
             "title": "Business Analyst",
-            "about": ""
+            "about": "With great attention detail Arber prides himself in his hard working ethic and his methodical approach towards defining, analyzing and documenting project requirements."
         }
     ]
 }
