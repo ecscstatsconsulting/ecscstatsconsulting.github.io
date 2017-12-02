@@ -1,0 +1,19 @@
+{
+    "name": "ECSC, ltd. Projects",
+    "projects": [
+        {
+            "name": "American Express",
+            "logo": {
+                "image": "American_Express_logo.svg"
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet vulputate tortor sollicitudin feugiat. Aliquam vel tellus varius, tristique felis a, rhoncus nibh. Duis sit amet posuere nulla, vitae bibendum arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas eu auctor velit. Curabitur aliquet lectus et nibh accumsan vulputate. Sed non orci vel dui fermentum maximus. Quisque porttitor lacus a augue pulvinar imperdiet."
+        },
+        {
+            "name": "NYS AIDS Institute",
+            "logo": {
+                "markup": "<img width=\"100px\" src=\"./images/nygov-logo.png\" alt=\"NYS AIDS Institute\" />"
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet vulputate tortor sollicitudin feugiat. Aliquam vel tellus varius, tristique felis a, rhoncus nibh. Duis sit amet posuere nulla, vitae bibendum arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas eu auctor velit. Curabitur aliquet lectus et nibh accumsan vulputate. Sed non orci vel dui fermentum maximus. Quisque porttitor lacus a augue pulvinar imperdiet."
+        }
+    ]
+}
