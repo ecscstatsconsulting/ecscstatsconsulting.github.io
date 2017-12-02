@@ -14,7 +14,7 @@ $(document).ready(function () {
         arr.push("<div class=\"ppl-text hidden\">");
         arr.push(p.about);
         if (p.resume) {
-            arr.push("<div class=\"resume\"><a href=\"resumes/ " + p.resume + "\">Resume</a></div>");
+            arr.push("<div class=\"resume\"><a href=\"resumes/" + p.resume + "\">Resume</a></div>");
         }
         arr.push("</div>");
         arr.push("</div>");
