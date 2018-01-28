@@ -13,7 +13,7 @@
             "logo": {
                 "markup": "<img width=\"100px\" src=\"./images/nygov-logo.png\" alt=\"NYS AIDS Institute\" /><div style=\"width:100%;text-align:center; font-size:11pt; font-weight:bold;\">AIDS Institute&#160;&#160;&#160;&#160;</div>"
             },
-            "description": "Analyzing medical data to find the treatement plans with the highest success rate."
+            "description": "Analyzing medical data to help create &amp; find treatement plans with the highest success rate."
         }
     ]
 }
