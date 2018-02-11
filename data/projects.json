@@ -14,6 +14,20 @@
                 "markup": "<img width=\"100px\" src=\"./images/nygov-logo.png\" alt=\"NYS AIDS Institute\" /><div style=\"width:100%;text-align:center; font-size:11pt; font-weight:bold;\">AIDS Institute&#160;&#160;&#160;&#160;</div>"
             },
             "description": "Analyzing medical data to help create &amp; find treatement plans with the highest success rate."
+        },
+        {
+            "name": "Open Source Projects",
+            "logo": {
+                "markup": "<img width=\"100px\" src=\"./images/MIT.svg\" alt=\"MIT Open Source\" /><div style=\"width:100px; line-height: 12px; text-align:center; font-size:11pt; font-weight:bold\">MIT<br />Open Source</div>"
+            },
+            "description": "We are proud contributors to the Open Source Community.  Please check out our projects at <a href=\"https://github.com/ecscstatsconsulting\">https://github.com/ecscstatsconsulting</a> to see our work."
+        },
+        {
+            "name": "Excel/CSV Generator Chrome App",
+            "logo": {
+                "markup": "<img width=\"100px\" src=\"./images/excelgen_mid.png\" alt=\"Excel/CSV Gen\" /><div style=\"width:100px;text-align:center; font-size:11pt; font-weight:bold;\">Excel/CSV Generator</div>"
+            },
+            "description": "A Free Chrome Extension that creates Excel Spreadsheets or CSV output from Tables of data found on websites.  If you use Chrome and gather data off of the internet, check it out now <a href=\"https://chrome.google.com/webstore/detail/excelcsv-generator/ppeejofkpebeikjaalhlmlmhldkhbgih\">here</a>."
         }
     ]
 }

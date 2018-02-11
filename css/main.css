@@ -1,9 +1,9 @@
-ul {
+ul.menu {
     list-style: none;
     margin-left: 25px;
 }
 
-li {
+li.menu-item {
     display: inline-block;
     margin-right: 10px;
     cursor: pointer;
