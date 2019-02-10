@@ -22,6 +22,7 @@
     cursor: pointer;
     transition: all 0.2s ease;
     vertical-align: top;
+    min-height: 262px;
   }
 
   /*section#tiles .thumbnail:hover, section#tiles .thumbnail:focus {
